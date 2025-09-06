@@ -40,7 +40,9 @@ int main()
         cin >> answer;
         if (answer == f) {
             cout << "\n\n \t\t\t\t\t You are correct about the code young padawan\n\n";
+            cin.ignore();
             getchar();
+
             break;
         }
         else {
