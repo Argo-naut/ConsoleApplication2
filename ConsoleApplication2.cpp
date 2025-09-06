@@ -12,6 +12,7 @@ int main()
 {
     cout << "Hello World!\n";
 
+
     int x;
     string answer;
     double y = 2.5;
@@ -33,20 +34,26 @@ int main()
     cout << "\n\n Tell me what is the password pleaseee??\n>";
            
 
-     bool loopbreaker = true;
-
-    while (loopbreaker)
+    bool loopbreaker = true;
+    
+    while (loopbreaker) {
         cin >> answer;
+        if (answer == f) {
+            cout << "\n\n \t\t\t\t\t You are correct about the code young padawan\n\n";
+            getchar();
+            break;
+        }
+        else {
+            cout << "\n \t\t\t\t You are wrong, go back to train buddy\n";
+        }
+    }
+        
    
 
-        if (answer == f)
-            cout << "\n\n \t\t\t\t\t You are correct about the code young padawan\n\n";
-            
-        else
-            cout << "\n \t\t\t\t You are wrong, go back to train buddy";
+        
             
           
-        return 0;
+    return 0;
     //The Answer is this...
 }
 
