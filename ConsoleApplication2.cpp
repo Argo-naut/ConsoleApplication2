@@ -18,6 +18,17 @@ int main()
     double y = 2.5;
     string f = "code";
 
+    struct Different_words {
+        string word2 = "Fireball";
+    };
+
+    string word1;
+    cin >> word1;
+
+    Different_words dw;
+    cout << dw.word2;
+
+
     int bool1 = 5;
     int bool2 = 35;
 
@@ -32,8 +43,6 @@ int main()
             cout << "\n\n bool1 is not smaller than bool2";
 
     cout << "\n\n Tell me what is the password pleaseee??\n>";
-           
-
     bool loopbreaker = true;
     
     while (loopbreaker) {
